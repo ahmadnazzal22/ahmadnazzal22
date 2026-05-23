@@ -40,7 +40,7 @@ ChromaDB · REST APIs · RAG · Prompt Engineering
 
 ## 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-mohammad-nazzal-61316b406)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-nazzal-61316b406?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ahmadnazzal22)
 
 ---
