@@ -144,29 +144,17 @@ class AhmadNazzal:
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=ahmadnazzal22&show_icons=true&theme=github_dark&hide_border=true&title_color=00FFB2&icon_color=00C8FF&text_color=8892a4&bg_color=0D1117" />
+<img height="160" src="https://github-stats-alpha.vercel.app/api?username=ahmadnazzal22&cc=0D1117&tc=00FFB2&ic=00C8FF&bc=0D1117" />
 &nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=github_dark&hide_border=true&title_color=00FFB2&text_color=8892a4&bg_color=0D1117&langs_count=6" />
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0A3040,100:00FFB2&height=220&section=header&text=Ahmad%20Nazzal&fontSize=56&fontColor=ffffff&fontAlignY=42&desc=AI%20Agent%20Developer%20%E2%80%94%20Python%20%7C%20LLM%20%7C%20RAG%20Systems&descSize=17&descAlignY=62&descColor=8892a4&animation=fadeIn" />
-
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=800&color=00FFB2&center=true&vCenter=true&width=620&lines=🤖+Building+production-ready+AI+agents;🧠+Autonomous+systems+that+actually+work;⚡+LLM+%7C+RAG+%7C+Multi-Agent+Architectures;🚀+From+idea+to+deployed+solution+—+end+to+end)](https://github.com/ahmadnazzal22)
-
-<br/>
-
-<a href="https://www.linkedin.com/in/ahmad-nazzal-61316b406"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-&nbsp;
-<a href="https://github.com/ahmadnazzal22"><img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white"/></a>
-&nbsp;
-<img src="https://img.shields.io/badge/Open%20to%20Work-00C853?style=for-the-badge&logoColor=white"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=github_dark&hide_border=true&title_color=00FFB2&text_color=8892a4&bg_color=0D1117&langs_count=6&cache_seconds=1800" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&style=flat-square&color=00FFB2&label=Profile+Views"/>
+<img src="https://streak-stats.demolab.com?user=ahmadnazzal22&theme=dark&hide_border=true&ring=00FFB2&fire=00C8FF&currStreakLabel=00FFB2&background=0D1117&stroke=0D1117&sideLabels=8892a4&dates=8892a4" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadnazzal22&theme=react-dark&hide_border=true&color=00FFB2&line=00C8FF&point=ffffff&bg_color=0D1117" />
 
 </div>
 
