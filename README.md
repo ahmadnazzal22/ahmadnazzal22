@@ -1,222 +1,209 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:0A1628,70:0A3040,100:00FFB2&height=240&section=header&text=Ahmad%20Nazzal&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=AI%20Agent%20Developer%20%7C%20LLM%20%7C%20RAG%20%7C%20Autonomous%20Systems&descSize=16&descAlignY=60&descColor=00FFB2&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0A2040,100:00FFB2&height=200&section=header&text=NEXUS%20AI%20Agent&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Autonomous%20Multi-Tool%20AI%20Agent%20%7C%20Python%20%2B%20LangChain&descSize=15&descAlignY=62&descColor=00FFB2&animation=fadeIn"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2800&pause=900&color=00FFB2&center=true&vCenter=true&width=650&lines=🤖+Building+production-ready+AI+agents;🧠+Autonomous+systems+that+actually+work;⚡+LLM+%7C+RAG+%7C+Multi-Agent+Architectures;🌐+AI+Compass+—+105%2B+tools+directory;🚀+From+idea+to+deployed+solution+—+end+to+end)](https://github.com/ahmadnazzal22)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-00FFB2?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge)
 
 <br/>
 
-<a href="https://www.linkedin.com/in/ahmad-nazzal-61316b406">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://github.com/ahmadnazzal22">
-  <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.upwork.com/freelancers/ahmadnazzal">
-  <img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Available%20for%20Hire-00C853?style=for-the-badge&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Rate-%2418%2Fhr-00FFB2?style=for-the-badge&logoColor=black"/>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&style=flat-square&color=00FFB2&label=Profile+Views"/>
+> *Autonomous AI agent that plans, reasons, and executes complex tasks using multiple tools — all in one workflow.*
 
 </div>
 
-<br/>
+-----
+
+## 🧠 What is NEXUS?
+
+NEXUS is a multi-tool autonomous AI agent built with Python and LangChain. It combines **reasoning**, **web research**, **file operations**, and **tool chaining** to execute complex tasks without manual intervention.
+
+Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal into steps, selecting the right tools, and executing them in sequence.
 
 -----
 
-## 🧠 About Me
+## ✨ Features
 
-```python
-class AhmadNazzal:
-    role        = "AI Agent Developer"
-    location    = "Jordan 🇯🇴"
-    focus       = ["Autonomous AI Agents", "RAG Systems", "LLM Applications"]
-    philosophy  = "Not demos — production-ready systems that solve real problems"
-    currently   = "Building: AI Compass 🧭 — The ultimate AI tools directory"
-    available   = True   # open to freelance & remote work
-    rate        = "$18/hr on Upwork"
-    languages   = ["Python", "Arabic 🇯🇴", "English 🇺🇸"]
-```
-
-<br/>
+- 🤖 **Autonomous task execution** — give it a goal, it figures out the steps
+- 🔍 **Web search integration** — real-time information retrieval
+- 📁 **File read/write** — works with local files and documents
+- 🧩 **Modular tool system** — easy to add new tools
+- 🧠 **Context-aware reasoning** — remembers task history within a session
+- ⚡ **Fast inference** — powered by Groq API (llama-3.3-70b)
 
 -----
 
-## ⚡ What I Build
+## 🚀 Use Cases
 
-<div align="center">
-
-|Capability                |Description                                   |Status      |
-|:-------------------------|:---------------------------------------------|:----------:|
-|🤖 **AI Agents**           |Multi-tool, autonomous, self-reasoning systems|`production`|
-|📄 **RAG Systems**         |Let your business chat with its own documents |`production`|
-|💬 **LLM Chatbots**        |Memory, personality & full context awareness  |`production`|
-|🔄 **Automation Pipelines**|News monitoring, research, data extraction    |`production`|
-|🌐 **AI Web Apps**         |Flask + dark UI + real-time AI response       |`production`|
-|🧭 **AI Compass**          |105+ AI tools directory — bilingual EN/AR     |`live`      |
-
-</div>
-
-<br/>
+|Use Case             |Description                                            |
+|:--------------------|:------------------------------------------------------|
+|🔬 Research Automation|Search, collect, and summarize information on any topic|
+|📄 Document Analysis  |Read files and extract key insights                    |
+|✍️ Content Generation |Create structured reports from research                |
+|🔄 Workflow Automation|Chain multiple tasks into one automated pipeline       |
+|📊 Data Gathering     |Collect and organize information from multiple sources |
 
 -----
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-|#   |Project                                                                        |Stack               |Description                                             |
-|:--:|:------------------------------------------------------------------------------|:------------------:|:-------------------------------------------------------|
-|`01`|[**🧠 NEXUS AI Agent**](https://github.com/ahmadnazzal22/nexus-ai-agent)        |`Python` `LangChain`|Autonomous multi-tool agent — search, code & file ops   |
-|`02`|[**📄 Document Q&A Agent**](https://github.com/ahmadnazzal22/document_qa_agent) |`RAG` `ChromaDB`    |Upload any PDF — ask anything, get exact answers        |
-|`03`|[**📰 AI News Agent**](https://github.com/ahmadnazzal22/ai-news-agent)          |`Groq` `Flask`      |Real-time news monitoring with AI-generated summaries   |
-|`04`|[**▶️ YouTube Summarizer**](https://github.com/ahmadnazzal22/youtube-summarizer)|`Gemini` `Python`   |Turn any video into structured AI notes                 |
-|`05`|[**🧭 AI Compass**](https://ahmadnazzal22.github.io/ai-compass)                 |`HTML` `JS` `JSON`  |105+ AI tools directory — bilingual, searchable, dark UI|
-|`06`|[**🤖 AI Portfolio Generator**](https://github.com/ahmadnazzal22)               |`Python` `Flask`    |Auto-generate professional portfolios with AI           |
-
-</div>
-
-<br/>
-
------
-
-## 🧭 AI Compass — Live Project
-
-<div align="center">
-
-
-> *The most complete bilingual AI tools directory — 105+ tools, 13 categories, free/paid filter, Arabic + English.*
-
-**🔗 [aicompass.live → ahmadnazzal22.github.io/ai-compass](https://ahmadnazzal22.github.io/ai-compass)**
-
-</div>
-
-<br/>
+## 🏗️ Architecture
 
 ```
-         ┌──────────────────────────────────────────────────┐
-         │                  🧭 AI COMPASS                   │
-         │         The Ultimate AI Tools Directory          │
-         └──────────────────────┬───────────────────────────┘
-                                │
-        ┌───────────────────────┼────────────────────────┐
-        ▼                       ▼                        ▼
-┌──────────────┐      ┌──────────────────┐      ┌──────────────┐
-│  105+ Tools  │      │  13 Categories   │      │  EN / AR     │
-│  Curated     │      │  Free + Paid     │      │  Bilingual   │
-│  & Rated     │      │  Filter System   │      │  Support     │
-└──────────────┘      └──────────────────┘      └──────────────┘
+User Input
+    │
+    ▼
+┌─────────────────────┐
+│    Agent Planner    │  ← Breaks goal into steps
+└──────────┬──────────┘
+           │
+    ┌──────▼──────┐
+    │Tool Selector│  ← Picks the right tool per step
+    └──────┬──────┘
+           │
+   ┌───────┼───────┐
+   ▼       ▼       ▼
+[Search] [Files] [LLM]   ← Execution layer
+   │       │       │
+   └───────┴───────┘
+           │
+    ┌──────▼──────┐
+    │Final Response│  ← Synthesized output
+    └─────────────┘
 ```
 
-<br/>
+-----
+
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/ahmadnazzal22/nexus-ai-agent.git
+cd nexus-ai-agent
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Set up environment
+cp .env.example .env
+# Add your API keys to .env
+```
+
+**.env file:**
+
+```env
+GROQ_API_KEY=your_groq_key_here
+```
+
+**Run:**
+
+```bash
+python main.py
+```
+
+-----
+
+## 📁 Project Structure
+
+```
+nexus-ai-agent/
+├── main.py              # Entry point
+├── agent/
+│   ├── core.py          # Agent logic & planning
+│   ├── tools.py         # Tool definitions
+│   └── memory.py        # Session memory
+├── utils/
+│   └── helpers.py       # Utility functions
+├── .env.example         # Environment template
+├── requirements.txt     # Dependencies
+└── README.md
+```
+
+-----
+
+## 💡 Example
+
+**Input:**
+
+```
+Research the latest AI agent frameworks and summarize the key findings.
+```
+
+**NEXUS process:**
+
+```
+[NEXUS] → Planning task...
+[NEXUS] → Step 1: Search for "AI agent frameworks 2024"
+[NEXUS] → Step 2: Extract key information from results
+[NEXUS] → Step 3: Synthesize findings into structured summary
+[NEXUS] → Generating final response...
+```
+
+**Output:**
+
+```
+Summary of AI Agent Frameworks (2024):
+
+1. LangChain — Most widely used, strong tool integration
+2. AutoGPT — Fully autonomous, goal-driven architecture
+3. CrewAI — Multi-agent collaboration framework
+...
+```
 
 -----
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-**Languages & Frameworks**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**LLM APIs & Models**
-
-![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Llama](https://img.shields.io/badge/Llama_3.3-0467DF?style=for-the-badge&logoColor=white)
-
-**Vector DBs & Tools**
-
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
-![Prompt Eng.](https://img.shields.io/badge/Prompt_Engineering-00FFB2?style=for-the-badge&logoColor=black)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-<br/>
+|Component      |Technology            |
+|:--------------|:---------------------|
+|Language       |Python 3.10+          |
+|Agent Framework|LangChain             |
+|LLM            |Llama 3.3 via Groq API|
+|Search         |Web Search Tool       |
+|Environment    |python-dotenv         |
 
 -----
 
-## 📊 GitHub Stats
+## 📈 Roadmap
 
-<div align="center">
-
-<img height="160" src="https://github-stats-alpha.vercel.app/api?username=ahmadnazzal22&cc=0D1117&tc=00FFB2&ic=00C8FF&bc=0D1117" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=ahmadnazzal22&theme=dark&hide_border=true&ring=00FFB2&fire=00C8FF&currStreakLabel=00FFB2&background=0D1117&stroke=0D1117&sideLabels=8892a4&dates=8892a4" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadnazzal22&bg_color=0D1117&color=00FFB2&line=00C8FF&point=00FFB2&area=true&hide_border=true" />
-
-</div>
-
-<br/>
+- [x] Multi-tool agent architecture
+- [x] Web search integration
+- [x] File operations
+- [ ] Persistent memory (vector DB)
+- [ ] Multi-agent collaboration
+- [ ] Web dashboard UI
+- [ ] Docker support
 
 -----
 
-## 💼 Services & Pricing
+## 🤝 Contributing
 
-<div align="center">
+Contributions, issues, and feature requests are welcome!
 
-|Service                    |Delivery|Starting At|
-|:--------------------------|:------:|:---------:|
-|🤖 Custom AI Agent          |3–5 days|`$150`     |
-|📄 RAG System (PDF/Docs Q&A)|2–4 days|`$120`     |
-|💬 LLM Chatbot with Memory  |2–3 days|`$100`     |
-|🔄 Automation Pipeline      |3–5 days|`$130`     |
-|🌐 AI Web App (Flask + UI)  |4–7 days|`$200`     |
-
-
-> 💬 *Message me on [LinkedIn](https://www.linkedin.com/in/ahmad-nazzal-61316b406) or [Upwork](https://www.upwork.com/freelancers/ahmadnazzal) to discuss your project*
-
-</div>
-
-<br/>
+1. Fork the repo
+1. Create a branch: `git checkout -b feature/your-feature`
+1. Commit: `git commit -m "Add your feature"`
+1. Push & open a Pull Request
 
 -----
 
-## 📫 Let’s Connect
+## 👨‍💻 Author
+
+**Ahmad Nazzal** — AI Agent Developer from Jordan 🇯🇴
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-nazzal-61316b406)
+[![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat&logo=github&logoColor=white)](https://github.com/ahmadnazzal22)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/ahmadnazzal)
+
+-----
+
+## 📄 License
+
+MIT License — feel free to use and build on this project.
 
 <div align="center">
-
-*Have a real problem that needs an AI solution? Let’s talk.*
-
-<br/>
-
-<a href="https://www.linkedin.com/in/ahmad-nazzal-61316b406">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://www.upwork.com/freelancers/ahmadnazzal">
-  <img src="https://img.shields.io/badge/Hire_on_Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://ahmadnazzal22.github.io/ai-compass">
-  <img src="https://img.shields.io/badge/Visit_AI_Compass-00FFB2?style=for-the-badge&logoColor=black"/>
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFB2,50:0A3040,100:0D1117&height=130&section=footer&text=Building+the+future%2C+one+agent+at+a+time&fontSize=14&fontColor=8892a4&fontAlignY=65&animation=fadeIn"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFB2,100:0D1117&height=100&section=footer&animation=fadeIn"/>
 </div>
