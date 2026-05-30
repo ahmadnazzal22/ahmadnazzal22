@@ -1,226 +1,79 @@
- الإضافات
+<!-- Header -->
+<div align="center">
 
-`bash id="p0x7a1"
-npm install three @react-three/fiber @react-three/drei
-npm install framer-motion lucide-react
-npm install clsx tailwind-merge
 ```
+╔══════════════════════════════════════════════════════╗
+║           AHMAD NAZZAL — AI AGENT DEVELOPER          ║
+╚══════════════════════════════════════════════════════╝
+```
+
+**Python · LLM & RAG Systems · Production-Ready Agents**
+
+*I build intelligent systems that automate real business problems.*
+*Not demos — agents that actually work.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-nazzal-61316b406)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/ahmadnazzal22)
+
+</div>
 
 ---
 
-# 🌌 2. Neural Network Animated Background (Three.js)
+## ⚡ What I Build
 
-## `components/NeuralBackground.tsx`
+| | Capability | Description |
+|---|---|---|
+| 🤖 | **AI Agents** | Multi-tool, autonomous, self-reasoning systems |
+| 📄 | **RAG Systems** | Let your business chat with its own documents |
+| 💬 | **LLM Chatbots** | Memory, personality & full context awareness |
+| 🔄 | **Automation Pipelines** | News monitoring, research, data extraction |
+| 🌐 | **AI Web Apps** | Flask + dark UI + real-time AI response |
+| 🏗️ | **AI Powered Architecture** | Clean futuristic AI UI system |
 
-tsx id="n3u7b1"
-"use client"
+---
 
-import { Canvas, useFrame } from "@react-three/fiber"
-import { Points, PointMaterial } from "@react-three/drei"
-import { useMemo, useRef } from "react"
-import * as THREE from "three"
+## 🛠️ Tech Stack
 
-function NeuralPoints() {
-  const ref = useRef<any>()
-
-  const points = useMemo(() => {
-    const p = new Float32Array(500 * 3)
-    for (let i = 0; i < p.length; i++) {
-      p[i] = (Math.random() - 0.5) * 10
-    }
-    return p
-  }, [])
-
-  useFrame(() => {
-    if (ref.current) ref.current.rotation.y += 0.0008
-  })
-
-  return (
-    <Points ref={ref} positions={points} stride={3} frustumCulled>
-      <PointMaterial
-        transparent
-        color="#00ffcc"
-        size={0.02}
-        sizeAttenuation
-        depthWrite={false}
-      />
-    </Points>
-  )
-}
-
-export default function NeuralBackground() {
-  return (
-    <div className="fixed inset-0 -z-10 bg-black">
-      <Canvas camera={{ position: [0, 0, 5] }}>
-        <NeuralPoints />
-      </Canvas>
-    </div>
-  )
+```python
+stack = {
+    "language"  : ["Python"],
+    "frameworks": ["Flask", "LangChain"],
+    "llm_apis"  : ["Groq", "Gemini API"],
+    "vector_db" : ["ChromaDB"],
+    "skills"    : ["RAG", "Prompt Engineering", "REST APIs"]
 }
 ```
 
 ---
 
-# 🤖 3. AI Chat داخل الموقع (واجهة فقط)
+## 🚀 Featured Projects
 
-## `components/AIChat.tsx`
-
-tsx id="c7h9d2"
-"use client"
-
-import { useState } from "react"
-
-export default function AIChat() {
-  const [messages, setMessages] = useState([
-    { role: "ai", text: "Hello! Ask me anything about Ahmad 👋" },
-  ])
-  const [input, setInput] = useState("")
-
-  const sendMessage = () => {
-    if (!input) return
-
-    const userMsg = { role: "user", text: input }
-    const aiMsg = {
-      role: "ai",
-      text: "This is a demo AI response (connect API later)",
-    }
-
-    setMessages([...messages, userMsg, aiMsg])
-    setInput("")
-  }
-
-  return (
-    <div className="fixed bottom-6 right-6 w-80 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-3">
-      
-      <div className="h-60 overflow-y-auto text-sm space-y-2">
-        {messages.map((m, i) => (
-          <div key={i} className={m.role === "ai" ? "text-cyan-300" : "text-white"}>
-            {m.text}
-          </div>
-        ))}
-      </div>
-
-      <div className="flex mt-2 gap-2">
-        <input
-          className="flex-1 bg-black/40 p-2 text-sm rounded-lg outline-none"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-        />
-        <button onClick={sendMessage} className="px-3 bg-cyan-500 rounded-lg">
-          →
-        </button>
-      </div>
-    </div>
-  )
-}
-```
+| # | Project | What it does |
+|---|---|---|
+| 01 | [🧠 NEXUS AI Agent](https://github.com/ahmadnazzal22/nexus-ai-agent) | Autonomous multi-tool agent — search, code & files |
+| 02 | [📄 Document Q&A](https://github.com/ahmadnazzal22/document_qa_agent) | Upload any PDF — ask anything, get exact answers |
+| 03 | [📰 AI News Agent](https://github.com/ahmadnazzal22/ai-news-agent) | Real-time news monitoring with AI summaries |
+| 04 | [▶️ YouTube Summarizer](https://github.com/ahmadnazzal22/youtube-summarizer) | Turn any video into structured AI notes |
+| 05 | 🏗️ AI Powered Architecture *(in progress)* | Clean futuristic AI UI system — LLM-powered design & reasoning |
 
 ---
 
-# 🖥️ 4. Terminal Intro Loading Screen
+## 🏗️ AI Powered Architecture — In Progress
 
-## `components/TerminalIntro.tsx`
+> **Clean futuristic AI UI system** — agents that design, plan and reason about complex systems in real-time.
 
-tsx id="t9r4k1"
-"use client"
-
-import { useEffect, useState } from "react"
-
-export default function TerminalIntro({ onFinish }: { onFinish: () => void }) {
-  const lines = [
-    "Initializing AI Portfolio...",
-    "Loading Neural Network...",
-    "Connecting LLM modules...",
-    "Deploying UI System...",
-    "Done ✔",
-  ]
-
-  const [index, setIndex] = useState(0)
-
-  useEffect(() => {
-    if (index < lines.length) {
-      const t = setTimeout(() => setIndex(index + 1), 700)
-      return () => clearTimeout(t)
-    } else {
-      setTimeout(onFinish, 500)
-    }
-  }, [index])
-
-  return (
-    <div className="fixed inset-0 bg-black flex items-center justify-center text-green-400 font-mono">
-      <div>
-        {lines.slice(0, index).map((l, i) => (
-          <p key={i}>> {l}</p>
-        ))}
-      </div>
-    </div>
-  )
-}
 ```
+[ LLM Core ] ──► [ Reasoning Engine ] ──► [ Visual Planner ]
+                                               │
+                                               ▼
+                              [ Futuristic UI · Real-time Output ]
+```
+
+**Core modules:** LLM Core · Visual Planner · System Design · Reasoning Engine · Real-time Output
 
 ---
 
-# 🌫️ 5. Glassmorphism UI (Tailwind Style Helper)
+## 📫 Let's Connect
 
-## أضف هذا لأي Card / Section:
-
-tsx id="g1a2b3"
-className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-xl"
-```
-
----
-
-# 🎯 مثال Hero بعد التحديث
-
-tsx id="h3e0r1"
-export default function Hero() {
-  return (
-    <section className="h-screen flex flex-col items-center justify-center text-center">
-      
-      <h1 className="text-6xl font-bold bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text">
-        Ahmad Nazzal
-      </h1>
-
-      <p className="text-gray-400 mt-3">
-        AI Agent Developer · Neural Systems · RAG Architect
-      </p>
-    </section>
-  )
-}
-```
-
----
-
-# 🧩 6. دمج كل شيء في الصفحة
-
-## `app/page.tsx`
-
-tsx id="m8p2x9"
-"use client"
-
-import { useState } from "react"
-import NeuralBackground from "@/components/NeuralBackground"
-import TerminalIntro from "@/components/TerminalIntro"
-import AIChat from "@/components/AIChat"
-import Hero from "@/components/Hero"
-
-export default function Home() {
-  const [loading, setLoading] = useState(true)
-
-  return (
-    <>
-      {loading && <TerminalIntro onFinish={() => setLoading(false)} />}
-
-      {!loading && (
-        <>
-          <NeuralBackground />
-          <Hero />
-          <AIChat />
-        </>
-      )}
-    </>
-  )
-}
-
-بس قلّي:
-**"حوّله لمستوى OpenAI style portfolio"** 🚀
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-nazzal-61316b406?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/ahmadnazzal22)
