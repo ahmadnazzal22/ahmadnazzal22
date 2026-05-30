@@ -7,14 +7,6 @@ markdown id="finalprofile01"
 
 I build practical AI systems and automation tools using LLMs and modern web technologies.
 
----
-
-<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&label=Profile%20Views&color=grey&style=flat" />
-
-</div>
-
----
-
 ## 🧠 About Me
 
 I focus on building useful AI systems — not demos.
