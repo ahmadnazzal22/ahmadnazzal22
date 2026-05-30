@@ -1,89 +1,226 @@
-<div align="center">
+ الإضافات
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:D4AF37&height=220&text=AI%20ENGINEER&fontColor=ffffff&fontSize=42&animation=fadeIn" />
-
-# Ahmad Nazzal ⚡
-
-### I build AI systems that actually solve real problems.
-
-Not demos. Real automation. Real systems.
+`bash id="p0x7a1"
+npm install three @react-three/fiber @react-three/drei
+npm install framer-motion lucide-react
+npm install clsx tailwind-merge
+```
 
 ---
 
-<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&label=VISITORS&color=gold&style=flat" />
+# 🌌 2. Neural Network Animated Background (Three.js)
 
-</div>
+## `components/NeuralBackground.tsx`
 
----
+tsx id="n3u7b1"
+"use client"
 
-## ⚡ WHAT I BUILD
+import { Canvas, useFrame } from "@react-three/fiber"
+import { Points, PointMaterial } from "@react-three/drei"
+import { useMemo, useRef } from "react"
+import * as THREE from "three"
 
-🤖 AI Agents that execute tasks  
-📄 RAG systems for document intelligence  
-💬 LLM chatbots with memory & tools  
-🔄 Automation pipelines & workflows  
-🌐 AI web apps (Flask + APIs)
+function NeuralPoints() {
+  const ref = useRef<any>()
 
----
+  const points = useMemo(() => {
+    const p = new Float32Array(500 * 3)
+    for (let i = 0; i < p.length; i++) {
+      p[i] = (Math.random() - 0.5) * 10
+    }
+    return p
+  }, [])
 
-## 🚀 FEATURED PROJECTS
+  useFrame(() => {
+    if (ref.current) ref.current.rotation.y += 0.0008
+  })
 
-| Project | What it does |
-|---|---|
-| 🧠 NEXUS AI Agent | Autonomous AI system using tools + reasoning |
-| 📄 Document Q&A | Chat with PDFs using AI retrieval |
-| 📰 AI News Agent | Live news → AI summaries automatically |
-| ▶️ YouTube Summarizer | Video → structured AI insights |
-| 🏗️ AI Powered Architecture | Clean futuristic AI UI system |
+  return (
+    <Points ref={ref} positions={points} stride={3} frustumCulled>
+      <PointMaterial
+        transparent
+        color="#00ffcc"
+        size={0.02}
+        sizeAttenuation
+        depthWrite={false}
+      />
+    </Points>
+  )
+}
 
----
-
-## 📊 GITHUB STATS (FIXED + WORKING)
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ahmadnazzal22&show_icons=true&theme=radical&hide_border=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=radical&hide_border=true" />
-
-</p>
-
----
-
-## 🔥 GITHUB ACTIVITY (LIVE GRAPH)
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadnazzal22&theme=react-dark&hide_border=true" />
-
-</p>
-
----
-
-## 🧠 STACK
-
-Python · Flask · LangChain · Groq · Gemini API · ChromaDB · APIs
+export default function NeuralBackground() {
+  return (
+    <div className="fixed inset-0 -z-10 bg-black">
+      <Canvas camera={{ position: [0, 0, 5] }}>
+        <NeuralPoints />
+      </Canvas>
+    </div>
+  )
+}
+```
 
 ---
 
-## 📫 CONNECT (NOW VISUAL 🔥)
+# 🤖 3. AI Chat داخل الموقع (واجهة فقط)
 
-<p align="center">
+## `components/AIChat.tsx`
 
-<a href="https://linkedin.com/in/ahmad-nazzal-61316b406">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+tsx id="c7h9d2"
+"use client"
 
-<a href="https://github.com/ahmadnazzal22">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
-</a>
+import { useState } from "react"
 
-</p>
+export default function AIChat() {
+  const [messages, setMessages] = useState([
+    { role: "ai", text: "Hello! Ask me anything about Ahmad 👋" },
+  ])
+  const [input, setInput] = useState("")
+
+  const sendMessage = () => {
+    if (!input) return
+
+    const userMsg = { role: "user", text: input }
+    const aiMsg = {
+      role: "ai",
+      text: "This is a demo AI response (connect API later)",
+    }
+
+    setMessages([...messages, userMsg, aiMsg])
+    setInput("")
+  }
+
+  return (
+    <div className="fixed bottom-6 right-6 w-80 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-3">
+      
+      <div className="h-60 overflow-y-auto text-sm space-y-2">
+        {messages.map((m, i) => (
+          <div key={i} className={m.role === "ai" ? "text-cyan-300" : "text-white"}>
+            {m.text}
+          </div>
+        ))}
+      </div>
+
+      <div className="flex mt-2 gap-2">
+        <input
+          className="flex-1 bg-black/40 p-2 text-sm rounded-lg outline-none"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button onClick={sendMessage} className="px-3 bg-cyan-500 rounded-lg">
+          →
+        </button>
+      </div>
+    </div>
+  )
+}
+```
 
 ---
 
-<div align="center">
+# 🖥️ 4. Terminal Intro Loading Screen
 
-### ⚡ From idea → real AI systems in production
+## `components/TerminalIntro.tsx`
 
-</div>
+tsx id="t9r4k1"
+"use client"
+
+import { useEffect, useState } from "react"
+
+export default function TerminalIntro({ onFinish }: { onFinish: () => void }) {
+  const lines = [
+    "Initializing AI Portfolio...",
+    "Loading Neural Network...",
+    "Connecting LLM modules...",
+    "Deploying UI System...",
+    "Done ✔",
+  ]
+
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    if (index < lines.length) {
+      const t = setTimeout(() => setIndex(index + 1), 700)
+      return () => clearTimeout(t)
+    } else {
+      setTimeout(onFinish, 500)
+    }
+  }, [index])
+
+  return (
+    <div className="fixed inset-0 bg-black flex items-center justify-center text-green-400 font-mono">
+      <div>
+        {lines.slice(0, index).map((l, i) => (
+          <p key={i}>> {l}</p>
+        ))}
+      </div>
+    </div>
+  )
+}
+```
+
+---
+
+# 🌫️ 5. Glassmorphism UI (Tailwind Style Helper)
+
+## أضف هذا لأي Card / Section:
+
+tsx id="g1a2b3"
+className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-xl"
+```
+
+---
+
+# 🎯 مثال Hero بعد التحديث
+
+tsx id="h3e0r1"
+export default function Hero() {
+  return (
+    <section className="h-screen flex flex-col items-center justify-center text-center">
+      
+      <h1 className="text-6xl font-bold bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text">
+        Ahmad Nazzal
+      </h1>
+
+      <p className="text-gray-400 mt-3">
+        AI Agent Developer · Neural Systems · RAG Architect
+      </p>
+    </section>
+  )
+}
+```
+
+---
+
+# 🧩 6. دمج كل شيء في الصفحة
+
+## `app/page.tsx`
+
+tsx id="m8p2x9"
+"use client"
+
+import { useState } from "react"
+import NeuralBackground from "@/components/NeuralBackground"
+import TerminalIntro from "@/components/TerminalIntro"
+import AIChat from "@/components/AIChat"
+import Hero from "@/components/Hero"
+
+export default function Home() {
+  const [loading, setLoading] = useState(true)
+
+  return (
+    <>
+      {loading && <TerminalIntro onFinish={() => setLoading(false)} />}
+
+      {!loading && (
+        <>
+          <NeuralBackground />
+          <Hero />
+          <AIChat />
+        </>
+      )}
+    </>
+  )
+}
+
+بس قلّي:
+**"حوّله لمستوى OpenAI style portfolio"** 🚀
