@@ -1,19 +1,15 @@
-
-
-markdown
+markdown id="finalprofile01"
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:D4AF37&height=220&text=Ahmad%20Nazzal&fontColor=ffffff&fontSize=40&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:D4AF37&height=200&text=Ahmad%20Nazzal&fontColor=ffffff&fontSize=38&animation=fadeIn" />
 
-# Ahmad Nazzal 👋
+### AI Engineer · Python Developer · LLM & RAG Systems
 
-### AI Engineer · LLM Systems · RAG Architect
-
-Building production-grade AI systems that solve real-world problems.
+I build practical AI systems and automation tools using LLMs and modern web technologies.
 
 ---
 
-<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&label=Profile%20Views&color=gold&style=flat" />
+<img src="https://komarev.com/ghpvc/?username=ahmadnazzal22&label=Profile%20Views&color=grey&style=flat" />
 
 </div>
 
@@ -21,18 +17,19 @@ Building production-grade AI systems that solve real-world problems.
 
 ## 🧠 About Me
 
-AI Engineer focused on building intelligent systems using LLMs, RAG, and automation pipelines.  
-I focus on **real production systems**, not demos.
+I focus on building useful AI systems — not demos.
+
+My work revolves around AI agents, RAG systems, and automation tools that solve real tasks.
 
 ---
 
-## ⚡ What I Do
+## ⚡ What I Work On
 
-- 🤖 AI Agents & Autonomous Systems  
-- 📄 Retrieval-Augmented Generation (RAG)  
-- 💬 LLM Chatbots with memory & tools  
-- 🔄 AI Automation Pipelines  
-- 🌐 AI Web Applications (Flask + APIs)
+- 🤖 AI Agents for task automation  
+- 📄 RAG systems for document-based QA  
+- 💬 LLM-powered chatbots  
+- 🔄 Automation pipelines & data processing  
+- 🌐 Lightweight AI web apps (Flask + APIs)  
 
 ---
 
@@ -40,7 +37,7 @@ I focus on **real production systems**, not demos.
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,flask,javascript,html,css,git,github" />
+<img src="https://skillicons.dev/icons?i=python,flask,javascript,html,css,git" />
 
 </p>
 
@@ -51,24 +48,15 @@ ChromaDB · REST APIs · RAG · Prompt Engineering
 
 ---
 
-## 🚀 GitHub Activity
+## 🚀 Featured Projects
 
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadnazzal22&theme=react-dark&hide_border=true" />
-
-</p>
-
----
-
-## 📌 Featured Projects
-
-| Project               | Description                                            |
-| --------------------- | ------------------------------------------------------ |
-| 🧠 NEXUS AI Agent     | Autonomous AI system with tools, reasoning & execution |
-| 📄 Document Q&A       | Chat with PDFs using RAG + embeddings                  |
-| 📰 AI News Agent      | Real-time AI-powered news analysis                     |
-| ▶️ YouTube Summarizer | Convert videos into structured AI insights             |
+| Project                     | Description                                                                                   |
+| --------------------------- | --------------------------------------------------------------------------------------------- |
+| 🧠 NEXUS AI Agent           | AI system that uses tools for search, reasoning, and task execution in a structured workflow. |
+| 📄 Document Q&A             | RAG-based system to query PDF documents using semantic retrieval and LLM responses.           |
+| 📰 AI News Agent            | Automated pipeline that fetches news, processes it, and generates AI summaries.               |
+| ▶️ YouTube Summarizer       | Extracts video transcripts and converts them into structured summaries and insights.          |
+| 🏗️ AI Powered Architecture | Frontend AI-themed project demonstrating clean UI design and modular web structure.           |
 
 ---
 
@@ -76,25 +64,15 @@ ChromaDB · REST APIs · RAG · Prompt Engineering
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ahmadnazzal22&show_icons=true&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api?username=ahmadnazzal22&show_icons=true&theme=dark" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=tokyonight" />
-
-</p>
-
----
-
-## 🏆 Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ahmadnazzal22&theme=darkhub&no-frame=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=dark" />
 
 </p>
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat\&logo=linkedin)](https://www.linkedin.com/in/ahmad-nazzal-61316b406)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat\&logo=github)](https://github.com/ahmadnazzal22)
@@ -103,9 +81,8 @@ ChromaDB · REST APIs · RAG · Prompt Engineering
 
 <div align="center">
 
-### 🚀 Building AI systems that actually ship to production
+### Building useful AI systems with a focus on real-world impact.
 
 </div>
-
 
 بس قلّي 👍
