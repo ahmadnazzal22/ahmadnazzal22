@@ -145,16 +145,10 @@ class AhmadNazzal:
 <div align="center">
 
 <img height="160" src="https://github-stats-alpha.vercel.app/api?username=ahmadnazzal22&cc=0D1117&tc=00FFB2&ic=00C8FF&bc=0D1117" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadnazzal22&layout=compact&theme=github_dark&hide_border=true&title_color=00FFB2&text_color=8892a4&bg_color=0D1117&langs_count=6&cache_seconds=1800" />
 
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=ahmadnazzal22&theme=dark&hide_border=true&ring=00FFB2&fire=00C8FF&currStreakLabel=00FFB2&background=0D1117&stroke=0D1117&sideLabels=8892a4&dates=8892a4" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahmadnazzal22&theme=react-dark&hide_border=true&color=00FFB2&line=00C8FF&point=ffffff&bg_color=0D1117" />
 
 </div>
 
