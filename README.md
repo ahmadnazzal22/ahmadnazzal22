@@ -22,23 +22,6 @@
 ## 🧠 What is NEXUS?
 
 NEXUS is a multi-tool autonomous AI agent built with Python and LangChain. It combines **reasoning**, **web research**, **file operations**, and **tool chaining** to execute complex tasks without manual intervention.
----
-
-### 👁️ PHANTOM EYE
-> Intelligent Surveillance System | Python + YOLOv8 + Flask
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLOv8-Ultralytics-purple?style=for-the-badge)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-Real-time AI surveillance system that detects and tracks **people, vehicles, and animals**.
-Every object is classified, color-coded, and logged automatically.
-
-- 👤 Face recognition — identifies known persons
-- 🚗 License plate reader — OCR for vehicle plates
-- 🔴 NEW / 🔵 KNOWN — smart color-coded tracking
-- ⚡ Optimized for real-time performance
 
 Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal into steps, selecting the right tools, and executing them in sequence.
 
@@ -52,20 +35,21 @@ Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal 
 - 🧩 **Modular tool system** — easy to add new tools
 - 🧠 **Context-aware reasoning** — remembers task history within a session
 - ⚡ **Fast inference** — powered by Groq API (llama-3.3-70b)
-
+- 👁️ **PHANTOM EYE** — Intelligent surveillance system with real-time detection, tracking, and recognition
 -----
 
 ## 🚀 Use Cases
 
-|Use Case             |Description                                            |
-|:--------------------|:------------------------------------------------------|
-|🔬 Research Automation|Search, collect, and summarize information on any topic|
-|📄 Document Analysis  |Read files and extract key insights                    |
-|✍️ Content Generation |Create structured reports from research                |
-|🔄 Workflow Automation|Chain multiple tasks into one automated pipeline       |
-|📊 Data Gathering     |Collect and organize information from multiple sources |
-
------
+|Use Case                  |Description                                            |
+|:-------------------------|:-------------------------------------------------------|
+|🔬 Research Automation     |Search, collect, and summarize information on any topic|
+|📄 Document Analysis       |Read files and extract key insights                    |
+|✍️ Content Generation      |Create structured reports from research                |
+|🔄 Workflow Automation     |Chain multiple tasks into one automated pipeline       |
+|📊 Data Gathering          |Collect and organize information from multiple sources |
+|👁️ Smart Surveillance      |Detect, track, and recognize people, vehicles, and     |
+|animals in real time                                                               |
+|🚗 License Plate Recognition|Extract and identify vehicle plates using OCR         |
 
 ## 🏗️ Architecture
 
