@@ -35,7 +35,7 @@ Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal 
 - 🧩 **Modular tool system** — easy to add new tools
 - 🧠 **Context-aware reasoning** — remembers task history within a session
 - ⚡ **Fast inference** — powered by Groq API (llama-3.3-70b)
-- 👁️ **PHANTOM EYE** — Smart Surveillance|Detect, track and recognize people, vehicles and animals in real time tion
+- 👁️ **PHANTOM EYE** — YOLOv8-based surveillance platform with face recognition, OCR license plate reading, and smart object tracking
 -----
 
 ## 🚀 Use Cases
