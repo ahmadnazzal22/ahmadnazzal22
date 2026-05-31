@@ -22,6 +22,23 @@
 ## 🧠 What is NEXUS?
 
 NEXUS is a multi-tool autonomous AI agent built with Python and LangChain. It combines **reasoning**, **web research**, **file operations**, and **tool chaining** to execute complex tasks without manual intervention.
+---
+
+### 👁️ PHANTOM EYE
+> Intelligent Surveillance System | Python + YOLOv8 + Flask
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLOv8-Ultralytics-purple?style=for-the-badge)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+
+Real-time AI surveillance system that detects and tracks **people, vehicles, and animals**.
+Every object is classified, color-coded, and logged automatically.
+
+- 👤 Face recognition — identifies known persons
+- 🚗 License plate reader — OCR for vehicle plates
+- 🔴 NEW / 🔵 KNOWN — smart color-coded tracking
+- ⚡ Optimized for real-time performance
 
 Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal into steps, selecting the right tools, and executing them in sequence.
 
