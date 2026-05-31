@@ -40,16 +40,15 @@ Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal 
 
 ## 🚀 Use Cases
 
-|Use Case                  |Description                                            |
-|:-------------------------|:-------------------------------------------------------|
-|🔬 Research Automation     |Search, collect, and summarize information on any topic|
-|📄 Document Analysis       |Read files and extract key insights                    |
-|✍️ Content Generation      |Create structured reports from research                |
-|🔄 Workflow Automation     |Chain multiple tasks into one automated pipeline       |
-|📊 Data Gathering          |Collect and organize information from multiple sources |
-|👁️ Smart Surveillance      |Detect, track, and recognize people, vehicles, and     |
-|                                         animals in real time                      |
-|🚗 License Plate Recognition|Extract and identify vehicle plates using OCR         |
+|Use Case                  |Description                                                               |
+|:-------------------------|:-------------------------------------------------------------------------|
+|🔬 Research Automation     |Search, collect, and summarize information on any topic                  |
+|📄 Document Analysis       |Read files and extract key insights                                      |
+|✍️ Content Generation      |Create structured reports from research                                  |
+|🔄 Workflow Automation     |Chain multiple tasks into one automated pipeline                         |
+|📊 Data Gathering          |Collect and organize information from multiple sources                   |
+|👁️ Smart Surveillance      | Detect, track, and recognize people, vehicles, and animals in real time |
+|🚗 License Plate Recognition|Extract and identify vehicle plates using OCR                           |
 
 ## 🏗️ Architecture
 
