@@ -12,7 +12,6 @@
 
 <br/>
 
-
 > *Autonomous AI agent that plans, reasons, and executes complex tasks using multiple tools — all in one workflow.*
 
 </div>
@@ -36,19 +35,20 @@ Unlike simple chatbots, NEXUS **plans before it acts** — breaking down a goal 
 - 🧠 **Context-aware reasoning** — remembers task history within a session
 - ⚡ **Fast inference** — powered by Groq API (llama-3.3-70b)
 - 👁️ **PHANTOM EYE** — YOLOv8-based surveillance platform with face recognition, OCR license plate reading, and smart object tracking
+
 -----
 
 ## 🚀 Use Cases
 
-|Use Case                  |Description                                                               |
-|:-------------------------|:-------------------------------------------------------------------------|
-|🔬 Research Automation     |Search, collect, and summarize information on any topic                  |
-|📄 Document Analysis       |Read files and extract key insights                                      |
-|✍️ Content Generation      |Create structured reports from research                                  |
-|🔄 Workflow Automation     |Chain multiple tasks into one automated pipeline                         |
-|📊 Data Gathering          |Collect and organize information from multiple sources                   |
-|👁️ Smart Surveillance      | Detect, track, and recognize people, vehicles, and animals in real time |
-|🚗 License Plate Recognition|Extract and identify vehicle plates using OCR                           |
+| Use Case                   | Description                                                               |
+|:---------------------------|:--------------------------------------------------------------------------|
+| 🔬 Research Automation      | Search, collect, and summarize information on any topic                   |
+| 📄 Document Analysis        | Read files and extract key insights                                       |
+| ✍️ Content Generation       | Create structured reports from research                                   |
+| 🔄 Workflow Automation      | Chain multiple tasks into one automated pipeline                          |
+| 📊 Data Gathering           | Collect and organize information from multiple sources                    |
+| 👁️ Smart Surveillance       | Detect, track, and recognize people, vehicles, and animals in real time   |
+| 🚗 License Plate Recognition | Extract and identify vehicle plates using OCR                            |
 
 ## 🏗️ Architecture
 
@@ -157,13 +157,13 @@ Summary of AI Agent Frameworks (2024):
 
 ## 🛠️ Tech Stack
 
-|Component      |Technology            |
-|:--------------|:---------------------|
-|Language       |Python 3.10+          |
-|Agent Framework|LangChain             |
-|LLM            |Llama 3.3 via Groq API|
-|Search         |Web Search Tool       |
-|Environment    |python-dotenv         |
+| Component       | Technology             |
+|:----------------|:-----------------------|
+| Language        | Python 3.10+           |
+| Agent Framework | LangChain              |
+| LLM             | Llama 3.3 via Groq API |
+| Search          | Web Search Tool        |
+| Environment     | python-dotenv          |
 
 -----
 
@@ -178,6 +178,166 @@ Summary of AI Agent Frameworks (2024):
 - [ ] Docker support
 
 -----
+
+---
+
+# 🛢️ SmartFuel Jordan
+
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+
+> *Enterprise-grade, government-class command-and-control platform for Jordan's national fuel supply chain.*
+
+</div>
+
+## 🧠 What is SmartFuel Jordan?
+
+SmartFuel Jordan is a national energy intelligence platform that combines **3D geospatial visualization**, **predictive analytics**, **anomaly detection**, and **smart recommendations** in a single command center — designed to rival modern military C2 systems.
+
+-----
+
+## ✨ Features
+
+### 🎯 Unified National Command
+- **Executive Dashboard** — National stability gauge, real-time KPIs, AI executive summary
+- **3D Jordan Map** — Extruded country mesh with city markers, supply routes, port beacon
+- **Digital Twin** — Live Three.js simulation of the national fuel network
+
+### 📊 Analytics & KPIs
+- **Live KPI Cards** — 6 real-time indicators with animated counters and trend deltas
+- **30-Day Area Chart** — Interactive Recharts visualization with gradient fills
+- **Regional Risk Heatmap** — 3×3 governorate risk grid with color-coded cells
+- **Governorate Breakdown** — Detailed per-region station and fuel table
+
+### 🤖 AI & Predictions
+- **Smart Predictions** — 72-hour shortage forecasting with up to 96% confidence
+- **Recommendation Engine** — Automated restock, maintenance, and fleet recommendations
+- **AI Insight Cards** — Real-time intelligence with confidence scores and impact metrics
+- **AI CoPilot** — Natural language chat interface for data queries
+
+### 🔍 Security & Monitoring
+- **Fuel Theft Detection** — Inventory discrepancy alerts, meter tampering detection
+- **Anomaly Detection** — Sensor malfunctions, route deviations, unauthorized access
+- **Audit Trail** — Full activity log with advanced filtering and pagination
+- **Early Warning System** — Instant alerts for critical risks and shortages
+
+### 🚚 Fleet Management
+- **Truck Tracking** — Live GPS monitoring with supply routes
+- **Load Distribution** — Real-time capacity and load percentage tracking
+- **Trip History** — Complete transportation log with origin/destination
+
+-----
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology                              |
+|:-------------|:----------------------------------------|
+| Framework    | Next.js 14 (App Router)                 |
+| Language     | TypeScript                              |
+| Styling      | Tailwind CSS                            |
+| Animations   | Framer Motion                           |
+| 3D Graphics  | React Three Fiber + Three.js            |
+| Charts       | Recharts                                |
+| Icons        | Lucide React                            |
+| ORM          | Prisma                                  |
+| Database     | SQLite (dev) / Turso LibSQL (prod)      |
+| Auth         | bcryptjs + JWT sessions                 |
+| Real-time    | WebSocket (ws)                          |
+
+-----
+
+## 🎨 Visual Design System
+
+- **Palette** — Zinc-950 background, emerald-400 accent (`#34d399`), amber/rose for alerts
+- **Glassmorphism** — `.glass-panel` with 24–32px backdrop blur and `saturate(1.4)`
+- **Premium Gradients** — Gradient borders, glow effects, text gradients via CSS `mask-composite`
+- **Typography** — Inter (UI) + JetBrains Mono (data) with `lining-nums tabular-nums`
+- **Responsive** — Desktop sidebar, mobile bottom nav with `safe-area-inset-bottom`
+
+---
+
+---
+
+# 💬 SmartBiz AI
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+> *Turn your WhatsApp into a 24/7 AI sales team.*
+
+**Live:** [smartbiz-ai-wine.vercel.app](https://smartbiz-ai-wine.vercel.app) &nbsp;|&nbsp; **API:** [ahmadnazzal-ahmad-smartbiz.hf.space](https://ahmadnazzal-ahmad-smartbiz.hf.space)
+
+</div>
+
+## 🧠 What is SmartBiz AI?
+
+SmartBiz AI is a production-ready SaaS platform that turns your WhatsApp Business number into an **intelligent, automated sales and support system**. It handles customer conversations, books appointments, captures and scores leads, and provides real-time business analytics — all from a single dashboard.
+
+-----
+
+## ✨ Features
+
+### 🤖 AI Sales Assistant
+- 24/7 automated customer responses via WhatsApp
+- Smart FAQ handling (pricing, services, bookings, hours)
+- Lead qualification and scoring (Hot / Warm / Cold)
+- Arabic and English language support
+
+### 💬 WhatsApp Integration
+- WhatsApp webhook endpoint for real messaging
+- Full conversation history with search
+- Arabic + English support
+
+### 📅 Smart Booking Engine
+- Customers book directly from WhatsApp
+- Double-booking prevention with intelligent slot management
+- Configurable business hours (per day of week)
+- Confirmation and reminder messages
+
+### 🎯 Lead Pipeline Management
+- Visual pipeline with Hot / Warm / Cold scoring
+- Source tracking (WhatsApp vs Web)
+- One-click status updates
+
+### 📊 Executive Dashboard
+- Real-time stats (leads, bookings, messages, conversion)
+- Weekly activity bar charts + service distribution pie charts
+- AI-powered business insights
+
+### 📋 Additional Features
+- **Daily AI Report** — automated business summary
+- **WhatsApp Conversation Viewer** — WhatsApp UI in browser
+- **Calendar View** — monthly/weekly booking calendar
+- **Notification Center** — real-time activity alerts
+- **Settings** — business hours and profile management
+- **Mobile Responsive** — works on phones and tablets
+- **Dark Theme** — premium glass-morphism design
+
+-----
+
+## 🛠️ Tech Stack
+
+| Component  | Technology         |
+|:-----------|:-------------------|
+| Frontend   | React 18 + Vite 5  |
+| Backend    | FastAPI            |
+| Styling    | Tailwind CSS       |
+| Database   | PostgreSQL         |
+| Auth       | JWT + bcrypt       |
+
+-----
+
+---
 
 ## 🤝 Contributing
 
