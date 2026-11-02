@@ -1,23 +1,27 @@
 # 👋 Hi, I'm Ahmad Nazzal
 
-### Aspiring Python Developer | Exploring AI, Automation & Software Development
+### Aspiring Python Developer | AI & Software Development Enthusiast
 
 Welcome to my GitHub profile!
 
-I'm passionate about programming, technology, and building useful digital solutions. I'm currently developing my programming skills through hands-on learning, practical exercises, and personal projects.
+I'm interested in software development, Python programming, Artificial Intelligence, and building practical applications.
 
-My journey focuses on learning by doing, improving problem-solving skills, and turning ideas into working applications.
+I enjoy exploring new technologies, experimenting with ideas, and developing projects that combine programming, automation, APIs, and AI.
+
+I'm continuously improving my skills through hands-on projects and structured learning.
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-- 🐍 Currently learning Python through [freeCodeCamp](https://www.freecodecamp.org/).
-- 💻 Practicing programming through workshops, labs, and personal projects.
+- 🐍 Learning Python through freeCodeCamp and practical projects.
 - 🤖 Exploring Artificial Intelligence and AI-powered applications.
-- ⚙️ Interested in automation and intelligent software solutions.
-- 📚 Continuously learning new technologies and improving my skills.
-- 🎯 Goal: Become a skilled software developer and build meaningful projects.
+- ⚙️ Interested in automation, AI agents, and intelligent systems.
+- 🌐 Exploring web development and backend technologies.
+- 🧩 Practicing problem-solving, programming logic, and software design.
+- 📚 Learning by building, experimenting, and improving.
+
+**My goal:** Keep growing as a developer and build useful, reliable software solutions.
 
 ---
 
@@ -27,133 +31,272 @@ My journey focuses on learning by doing, improving problem-solving skills, and t
 - Python
 - JavaScript
 - TypeScript
+- HTML
+- CSS
 
-**Web Development**
+**Python Libraries & Frameworks**
+- Flask
+- Streamlit
+- Tkinter
+- Turtle
+- Requests
+- BeautifulSoup
+- LangChain
+
+**AI & APIs**
+- Groq API
+- LLM Integration
+- AI Summarization
+- AI Agents
+- Semantic Search
+- API Integration
+
+**Frontend & Backend**
 - React
+- Vite
 - Next.js
-- HTML & CSS
+- FastAPI
 - Tailwind CSS
 
-**Backend & Databases**
-- FastAPI
-- PostgreSQL
+**Databases & Tools**
 - SQLite
-
-**AI & Machine Learning**
-- LangChain
-- Large Language Models (LLMs)
-- AI Agents
-- Exploring Computer Vision
-
-**Development Tools**
+- PostgreSQL
+- Prisma
 - Git
 - GitHub
 - VS Code
 
-*Technologies listed reflect my learning interests and project experience; my proficiency varies.*
+*My experience with these technologies varies by project and learning stage.*
 
 ---
 
-## 💡 Featured Projects
+# 🚀 Featured Projects
 
-### 🧠 NEXUS AI Agent
+## 🤖 Artificial Intelligence Projects
 
-An experimental multi-tool AI agent concept built around Python and LangChain.
+### 1. NEXUS — Multi-Tool AI Agent
 
-**Project focus:**
-- AI-powered task planning and reasoning.
-- Tool selection and task execution.
-- Web research integration.
-- File operations.
-- Modular architecture for extending agent capabilities.
+A Python-based AI assistant that selects tools based on user requests and provides responses through an interactive web interface.
 
-**Technologies:** Python, LangChain, Groq API.
+**Features**
+- Wikipedia search in English and Arabic.
+- Smart calculator using natural-language requests.
+- Weather information for different cities.
+- Automatic tool selection.
+- Bilingual Arabic and English support.
+- Web interface built with Flask.
+
+**Technologies:** Python, Flask, Groq API, LLaMA 3.3, Wikipedia API, HTML, CSS, JavaScript.
 
 [View Repository](https://github.com/ahmadnazzal22/nexus-ai-agent)
 
 ---
 
-### ⛽ SmartFuel Jordan
+### 2. DocAI Agent — Document Question Answering
 
-A concept for a smart energy management and monitoring platform focused on Jordan's fuel supply chain.
+An AI-powered document question-answering application that allows users to upload documents and ask questions about their content.
 
-**Project focus:**
-- Interactive dashboards and data visualization.
-- Geographic visualization of fuel infrastructure.
-- Supply chain monitoring concepts.
-- Predictive analytics and recommendations.
-- Fleet and inventory management concepts.
+**Features**
+- PDF and TXT document support.
+- AI-powered question answering.
+- Semantic search and vector embeddings.
+- Document processing and text chunking.
+- Streamlit user interface.
+- Groq and LangChain integration.
 
-**Technologies:** Next.js, TypeScript, Three.js, Tailwind CSS, Prisma.
+**Technologies:** Python, Streamlit, Groq, LangChain, Vector Search.
+
+[View Repository](https://github.com/ahmadnazzal22/document_qa_agent)
 
 ---
 
-### 💬 SmartBiz AI
+### 3. AI News Agent
 
-An AI-powered business automation platform concept designed to help businesses manage customer interactions and sales workflows.
+A Python application that collects technology and AI news, processes articles, and generates structured summaries.
 
-**Project focus:**
-- AI-powered customer support.
-- WhatsApp business automation.
+**Features**
+- Automated technology news scraping.
+- Multiple news source support.
+- Article title, description, image, and link extraction.
+- AI-powered article summarization.
+- Key insight extraction.
+- Flask-based web interface.
+
+**Technologies:** Python, Flask, Requests, BeautifulSoup, LangChain, Groq API.
+
+[View Repository](https://github.com/ahmadnazzal22/ai-news-agent)
+
+---
+
+### 4. YouTube Video Summarizer AI
+
+An AI-powered application that extracts YouTube video transcripts and generates organized summaries.
+
+**Features**
+- YouTube video transcript extraction.
+- AI-generated structured summaries.
+- Key points and important highlights.
+- Arabic summarization support.
+- Standard YouTube links and Shorts support.
+- Embedded video preview.
+- Copy summary functionality.
+
+**Technologies:** Python, Groq API, LLaMA 3.3, YouTube transcript processing.
+
+[View Repository](https://github.com/ahmadnazzal22/youtube-summarizer)
+
+---
+
+### 5. AI Portfolio Generator
+
+An AI-powered web application designed to generate personal developer portfolio websites from professional information.
+
+**Features**
+- AI-generated portfolio layouts.
+- Dynamic color and theme customization.
+- Live sandboxed preview.
+- Export generated portfolio as HTML.
+- Arabic and English layout support.
+- Responsive user interface.
+
+**Technologies:** Python, Groq API, LLaMA 3.3, HTML, CSS, JavaScript.
+
+[View Repository](https://github.com/ahmadnazzal22/AI-Portfolio-Generator)
+
+---
+
+## 🐍 Python Development Projects
+
+### Python Project Collection
+
+A collection of Python applications and programming exercises covering automation, desktop interfaces, games, APIs, and data handling.
+
+[View Repository — my-project](https://github.com/ahmadnazzal22/my-project)
+
+**Automation**
+- Birthday Wisher — automated birthday email reminders.
+
+**GUI Applications**
+- Password Manager — password generation, storage, and retrieval.
+- Pomodoro Timer — productivity timer with work and break sessions.
+- Mile to Kilometer Converter — distance conversion application.
+
+**Game Development**
+- Snake Game.
+- Pong Game.
+- Turtle Crossing Game.
+- Turtle Race Game.
+- Trivia App.
+
+**API & Data Projects**
+- Kanye West Quote — quote retrieval through an API.
+- U.S. States Game — interactive geography learning game.
+
+**Web**
+- Website Template.
+
+These projects provide practical experience with Python logic, functions, APIs, GUI development, automation, and application structure.
+
+---
+
+## 🛢️ SmartFuel Jordan
+
+A smart fuel supply-chain management platform concept focused on monitoring, analytics, and visualization of Jordan's fuel infrastructure.
+
+**Project features described in the project documentation**
+- National dashboard and KPI visualization.
+- Interactive 3D map of Jordan.
+- Fuel supply network visualization.
+- Regional risk monitoring.
+- Predictive shortage analysis.
+- Fleet and transportation monitoring concepts.
+- Inventory anomaly and fuel-theft detection concepts.
+
+**Technologies:** Next.js, TypeScript, Tailwind CSS, Three.js, React Three Fiber, Recharts, Prisma, SQLite, Turso.
+
+---
+
+## 💬 SmartBiz AI
+
+An AI-powered business automation platform concept designed to support customer communication, sales workflows, and appointment management.
+
+**Project features described in the project documentation**
+- AI customer support assistant.
+- WhatsApp integration and messaging workflows.
+- Arabic and English support.
 - Customer lead management.
-- Appointment booking workflows.
-- Business analytics dashboards.
-- Arabic and English interaction support.
+- Appointment booking system.
+- Business analytics dashboard.
+- Conversation history and notifications.
+- Business settings and calendar interface.
 
-**Technologies:** React, Vite, FastAPI, PostgreSQL, Tailwind CSS.
+**Technologies:** React, Vite, FastAPI, PostgreSQL, Tailwind CSS, JWT.
 
-**Live Demo:** [SmartBiz AI](https://smartbiz-ai-wine.vercel.app)
+**Live Demo:** https://smartbiz-ai-wine.vercel.app
+
+**API:** https://ahmadnazzal-ahmad-smartbiz.hf.space
 
 ---
 
-### 🐍 PyJourney – My Python Learning Journey
+## 🐍 PyJourney — My Python Learning Journey
 
-A repository documenting my progress while learning Python through freeCodeCamp.
+A dedicated repository documenting my progress while learning Python through freeCodeCamp.
 
-**Repository includes:**
-- Workshops – Practical coding exercises.
-- Labs – Programming challenges and hands-on practice.
-- Certification Projects – Projects completed during my learning journey.
+**Repository structure**
+- `Workshops/` — Practical Python workshops and exercises.
+- `Labs/` — Hands-on coding challenges and programming exercises.
+- `Certification-Projects/` — Projects completed during my Python learning journey.
+
+**Current learning goals**
+- Python fundamentals.
+- Functions and data structures.
+- Conditional statements and loops.
+- Error handling and debugging.
+- Clean and readable code.
+- Problem-solving and practical projects.
 
 [Explore PyJourney](https://github.com/ahmadnazzal22/PyJourney)
 
 ---
 
-## 📚 Current Learning Goals
+## 🎯 Current Learning Goals
 
-- Strengthen Python fundamentals.
+- Strengthen Python programming fundamentals.
 - Improve problem-solving and logical thinking.
-- Learn object-oriented programming.
-- Understand data structures and algorithms.
-- Build practical applications.
-- Explore APIs and backend development.
-- Develop a deeper understanding of AI and automation.
-- Improve my Git and GitHub workflow.
+- Practice Object-Oriented Programming.
+- Learn data structures and algorithms.
+- Build more practical Python applications.
+- Improve backend development skills.
+- Understand APIs and database integration.
+- Explore AI agents and automation.
+- Improve Git and GitHub workflows.
 
 ---
 
-## 📈 My Development Philosophy
+## 📊 My Development Approach
 
-I believe in learning through practice, building projects, making mistakes, and improving step by step.
+I believe in learning through practice.
 
-Every project is an opportunity to learn something new.
+I use projects to explore technologies, understand programming concepts, solve problems, and improve my development workflow.
 
-**Learn. Build. Improve. Repeat.**
+I'm focused on continuous learning rather than claiming expertise before earning it.
+
+**Learn → Build → Experiment → Improve**
 
 ---
 
 ## 🤝 Connect With Me
 
-- **GitHub:** [@ahmadnazzal22](https://github.com/ahmadnazzal22)
-- **LinkedIn:** [Ahmad Nazzal](https://www.linkedin.com/in/ahmad-nazzal-61316b406)
-- **Upwork:** [My Upwork Profile](https://www.upwork.com/freelancers/ahmadnazzal)
+- **GitHub:** https://github.com/ahmadnazzal22
+- **LinkedIn:** https://www.linkedin.com/in/ahmad-mohammad-nazzal-61316b406
+- **Upwork:** https://www.upwork.com/freelancers/ahmadnazzal
 
 ---
 
 <div align="center">
 
-### Thanks for visiting my profile! 👨‍💻
+### Thanks for visiting my GitHub profile! 👨‍💻
 
-*Building my future, one line of code at a time.* 🚀
+**One step at a time, one line of code at a time.** 🚀
 
 </div>
