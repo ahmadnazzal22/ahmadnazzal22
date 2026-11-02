@@ -1,97 +1,65 @@
 # Hi, I'm Ahmad Nazzal 👋
 
-### Aspiring Python Developer | AI & Automation Enthusiast
+### Python Developer | Exploring Artificial Intelligence & Building Practical Projects
 
-I'm passionate about programming, problem-solving, and building practical applications. I enjoy exploring Python, Artificial Intelligence, and automation while continuously improving my development skills through hands-on projects.
+I'm passionate about Python, Artificial Intelligence, and software development. I enjoy turning ideas into practical applications and exploring how modern technologies can solve real-world problems.
 
----
+My journey focuses on building projects, experimenting with AI technologies, and continuously improving my development skills.
 
-## 🚀 What I'm Currently Learning
+## 🚀 What I Do
 
-- Advanced Python concepts and software development practices.
-- Artificial Intelligence and AI-powered applications.
-- AI Agents and Large Language Models (LLMs).
-- Automation and API integration.
-- Writing cleaner, more organized, and maintainable code.
+- Build Python applications and practical software solutions.
+- Explore AI Agents and Large Language Models (LLMs).
+- Develop projects involving Retrieval-Augmented Generation (RAG).
+- Experiment with Computer Vision and AI-powered automation.
+- Work with APIs, backend development, and modern web technologies.
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technologies & Tools
 
-**Programming Languages**
-- Python
-- HTML
-- CSS
+**Programming:** Python, JavaScript, TypeScript
 
-**Python Development**
-- Object-Oriented Programming (OOP)
-- GUI Development with Tkinter
-- Automation and Scripting
-- API Integration
-- JSON and CSV Data Handling
-- Error Handling
+**AI & Machine Learning:** LLMs, RAG, AI Agents, Computer Vision
 
-**Tools & Technologies**
-- Git & GitHub
-- Visual Studio Code
-- Turtle Graphics
-- Python Standard Library
+**Backend:** Flask, FastAPI, Streamlit
 
-*This list reflects technologies and concepts I have worked with through my projects and learning journey.*
+**Frontend:** HTML, CSS, JavaScript, React
 
----
+**Tools:** Git, GitHub, VS Code
+
+*Technologies listed reflect areas I've explored through learning and projects, not necessarily professional-level proficiency.*
 
 ## 🌟 Featured Projects
 
-### 1. NEXUS AI Agent
-A Python-based AI assistant designed to work with different tools and provide useful capabilities.
+Here are some projects I've been building and exploring:
 
-[View Repository](https://github.com/ahmadnazzal22/nexus-ai-agent)
+- 🤖 [NEXUS AI Agent](https://github.com/ahmadnazzal22/nexus-ai-agent) — A multi-tool AI assistant.
+- 📄 [Document QA Agent](https://github.com/ahmadnazzal22/document_qa_agent) — Ask questions about documents using AI and semantic search.
+- 📰 [AI News Agent](https://github.com/ahmadnazzal22/ai-news-agent) — AI-powered news collection and summarization.
+- 🎥 [YouTube Summarizer](https://github.com/ahmadnazzal22/youtube-summarizer) — Generate summaries from YouTube videos.
+- 👁️ [PHANTOM EYE](https://github.com/ahmadnazzal22/phantom-eye) — An AI-powered computer vision project.
+- 🚀 [AI Portfolio Generator](https://github.com/ahmadnazzal22/AI-Portfolio-Generator) — Generate personal portfolio websites with AI.
 
-### 2. Document QA Agent
-An AI-powered application for asking questions about documents and retrieving relevant information.
+## 🌱 Currently Learning
 
-[View Repository](https://github.com/ahmadnazzal22/document_qa_agent)
+- Advanced Python programming.
+- Generative AI and LLM applications.
+- AI Agent development.
+- RAG systems and semantic search.
+- Software engineering best practices.
 
-### 3. AI News Agent
-A Python project focused on collecting and summarizing AI and technology news.
+## 💡 My Approach
 
-[View Repository](https://github.com/ahmadnazzal22/ai-news-agent)
+**Learn by building. Improve through experimenting. Grow through consistency.**
 
-### 4. YouTube Summarizer
-An AI-powered tool for summarizing YouTube video transcripts, including Arabic language support.
+I believe every project is an opportunity to learn something new, solve a problem, and become a better developer.
 
-[View Repository](https://github.com/ahmadnazzal22/youtube-summarizer)
+## 📫 Connect With Me
 
----
-
-## 💻 Current Focus
-
-I'm continuously developing my Python skills through practical projects and improving my understanding of AI and automation.
-
-You can also follow my learning progress here:
-
-📚 [PyJourney – My Python Learning Journey](https://github.com/ahmadnazzal22/PyJourney)
+- GitHub: [@ahmadnazzal22](https://github.com/ahmadnazzal22)
+- LinkedIn: [Ahmad Nazzal](https://www.linkedin.com/in/ahmad-mohammad-nazzal-61316b406/)
 
 ---
 
-## 🎯 Future Goals
+⭐ Thanks for visiting my profile!
 
-- Become a skilled Python Developer.
-- Build useful AI-powered applications.
-- Develop and contribute to open-source projects.
-- Improve my problem-solving and software engineering skills.
-- Build real-world projects that provide practical value.
-- Keep learning and growing as a developer.
-
----
-
-## 🤝 Connect With Me
-
-- **GitHub:** [@ahmadnazzal22](https://github.com/ahmadnazzal22)
-- **LinkedIn:** [Ahmad nazzal](www.linkedin.com/in/
-ahmad-nazzal22)
-
-I'm always interested in learning, sharing ideas, and connecting with other developers.
-
----
-
-⭐ *Thanks for visiting my profile! Feel free to explore my repositories and follow my journey.*
+**Building today. Learning every day. 🚀**
